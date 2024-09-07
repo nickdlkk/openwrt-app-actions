@@ -52,7 +52,7 @@ EOF
     --network host \
     -v /sys/fs/cgroup:/sys/fs/cgroup \
     -v /var/run:/var2/run \
-    -v \"$config:/iStorePanel\" "
+    -v \"$config:/root/Configs/1Panel\" "
 
   cmd="$cmd\
   --dns=172.17.0.1 \
